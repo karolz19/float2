@@ -1,26 +1,40 @@
-body {
-    width: 800px;
-    
-}
 
-h1 {
+.t {
     background-color: blue;
-    position: fixed;
+    
     width: 800px;
+    z-index: 10000;
     
 }
 
 .f {
-    width: 350px;
-    text-align: center;
+    width: 400px;  
     float: left;
-    margin-top: 100px;
     height: auto;
+    background-color: burlywood;
+    
 }
 .s {
-    width: 350px;
-height: auto;
+    width: 390px;
+    height: auto;
     float: left;
-    margin-top: 100px;
     margin-left: 10px;
+    background-color: aqua;
+}
+.r {
+    position: relative;
+    left: 10%;
+    width: 90%;
+}
+.button {
+    bottom: 10%;
+    right: 10%;
+    position: fixed;
+    background-color: white;
+}
+.h {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
 }
